@@ -175,12 +175,12 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 }
-
-
 .information_list_header , .information_list_text{
     width: 264px;
 }
+
 .team_section{
+    padding: 120px 0 ;
     background-color: var(--backcolor-model);
     height: 732px;
 }
@@ -193,18 +193,23 @@ text-align: center;
 text-transform: capitalize;
 margin-left: auto;
 margin-right: auto;
-padding-top: 120px;
+margin-bottom: 72px;
 }
 .team_list{
     display: flex;
-    padding-top: 72px;
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+    gap: 24px;
 }
 .our_team_list{
     background-color: var(--bais-white-color);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.name_and_text{
+    padding: 32px 0 ;
 }
 .our_team_pirson{
     color: var(--backcolor-blak);
@@ -213,15 +218,13 @@ font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: center;
-padding-top: 32px;
+margin-bottom: 8px;
 }
 .our_team_text{
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
 text-align: center;
-padding-top: 8px;
-padding-bottom: 32px;
 }
 .portfolio_header{
 padding-top: 120px;
