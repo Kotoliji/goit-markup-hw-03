@@ -276,7 +276,7 @@ letter-spacing: 0.02em;
 text-align: left;
 }
 .footer_section{
-    padding: 100px 0;
+    padding: 100px 0 100px;
     background-color: var(--backcolor-blak);
     height: 312px;
     /* display: flex; 
