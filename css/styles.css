@@ -145,23 +145,9 @@ height: 120px;
     cursor: pointer;
     text-align: center;
 }
-.information_list_header{
-    color: var(--backcolor-blak);
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-margin-top: 120px;
-}
-.information_list_text{
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-}
 .information_about_syte{
-height: 344px;
+    padding: 120px 0 ;
+    height: 344px;
 }
 .information_list{
   display: flex;
@@ -169,7 +155,28 @@ height: 344px;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
+  gap: 24px;
 }
+.information_list_point{
+    width: calc((100% - 72px) / 4);
+}
+.information_list_header{
+color: var(--backcolor-blak);
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+margin-bottom: 8px;
+}
+.information_list_text{
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
+
+
 .information_list_header , .information_list_text{
     width: 264px;
 }
