@@ -278,11 +278,6 @@ text-align: left;
 .footer_section{
     padding: 100px 0 100px;
     background-color: var(--backcolor-blak);
-    height: 312px;
-    /* display: flex; 
-    flex-direction: column;
-    justify-content:flex-start;  */
-    padding-left: 156px;
 }
 .logo_link_down_ff{
     display: inline-block; 
